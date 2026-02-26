@@ -22,7 +22,7 @@ with col1:
     if resp:
       st.write("Correcto!!")
 with col2:
-    st.subheade("Esta es la segunda columna")
+    st.subheader("Esta es la segunda columna")
     modo = st.radio("Que Modalidad es la principal interfaz", ("Visual", "auditiva", "tactil"))
     if modo == "visual":
         st.write("la vista es fundamental para tu interfaz") 
