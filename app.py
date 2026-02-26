@@ -7,3 +7,6 @@ st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfac
 st.write("Yo, wasgood")
 image = Image.open("Eminem.jpg")
 st.image(image, caption="interfaces multimodales")
+
+texto = st.text_input("Escribe algo" , "Este es mi texto") 
+st.write("El texto escrito es", texto)
